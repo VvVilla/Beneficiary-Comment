@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+	<title>Vern's Presentation</title>
+	<link rel="icon" href="media/favicon.png" type="image/x-icon"/>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="global_page">
+<div id="global_header">
+	<div id="banner_layout">
+		<a id="benificarysearch" href="#">Beneficiary Search</a>
+	</div> <!--banner_layout-->
+	</div> <!--global_header-->
+	<div id="global_body">
+	<div id="mid_body">
+	<div id="content_container">
+	<div id="blank_space"> 
+	</div><!--Blankspace divider-->
+	<div id="content">
+	<p id="Company_banner">Beneficiary Info Search</p>
+	<p id="instructions">Use the form below to modify/search for an individuals information</p>
+
+	<form id="beneficiary_form">
+	  <label for="name">Beneficiary</label>
+	  <input type="text" id="name" name="name" placeholder="Last Name First Name"><br>
+	  
+	  <label>Address Verified?</label><br>
+	  <label for="yes">Yes</label>
+	  <input type="radio" id="yes" name="address" value="yes">
+	  <label for="no">No</label>
+	  <input type="radio" id="no" name="address" value="no"><br>
+	  <label>Contact Number Updated</label><br>
+	  <label for="yes">Yes</label>
+	  <input type="radio" id="yes" name="contact" value="yes">
+	  <label for="no">No</label>
+	  <input type="radio" id="no" name="contact" value="no"><br>
+	  
+	  <label>Call Reason: </label>
+	  <input list="call reason">
+
+	  <datalist id="call reason">
+		  <option value="Plan Enrollment">
+		  <option value="Plan Update">
+		  <option value="Plan Verification">
+		  <option value="General Information">
+	  </datalist><br>
+	  
+	  <label for="comment_field">Comments</label>
+	  <input type="text" id="comment_field" name="comment_field"><br>
+		
+	  <div id="submit_div">
+		  <input type="submit" id="submit_btn">
+	  </div> <!--submit_div--> 
+	</form>
+	</div> <!--content-->
+	</div> <!--content_container-->
+	</div> <!--mid_body-->
+	</div> <!--global_body-->
+	<div id="global_footer">
+	<span id="footer_banner">Template for company form modifier made by <a id="Vern" href="#">Vern</a> in one night give me a raise, J</span>	
+	</div> <!--global_footer-->
+</div> <!--global_page-->
+</body>
+</html>
