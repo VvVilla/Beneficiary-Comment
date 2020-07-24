@@ -61,12 +61,12 @@ body {
 	vertical-align: middle;
 }
 
-#Vern {
+#M {
 	color: #D3D3D3; 
 	text-decoration: none;
 }
 
-#Vern:hover {
+#M:hover {
 	text-decoration: underline;
 	color: #FFFFFF;
 	transition: color .3s ease;
